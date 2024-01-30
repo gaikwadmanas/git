@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D2E0FB;
+}
+
+.signUp {
+    
+    width: 30%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #f1f0e5;
+}
+
+
+h2{
+    font-size: x-large;
+    font-family: 'lemon';
+}
+
+.names{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.pass{
+    margin-right: 10px;
+}
+
+.add{
+    margin-right: 20px;
+}
+
+.last{
+    margin-right: 2px;
+}
+
+.id{
+    margin-right: 32px;
+}
+
+input, textarea[type=text] {
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+}
+button{ 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+button:hover{
+    padding: 10px 15px;
+    transition-duration: 300ms;
+}
